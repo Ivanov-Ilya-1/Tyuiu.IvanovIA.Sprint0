@@ -1,5 +1,8 @@
 ﻿using System;
-
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 namespace Tyuiu.IvanovIA.Sprint0.Task1.V0
 {
     class Program
@@ -10,7 +13,7 @@ namespace Tyuiu.IvanovIA.Sprint0.Task1.V0
             Console.WriteLine("Hello, World!");
             string name = "Илья";
             int age = 18;
-            Console.WriteLine("Здравствуйте, мне " + age + " лет, а зовут меня " + name );
+            Console.WriteLine("Здравствуйте меня зовут " + name + " мне " + age + " лет." );
             Console.ReadKey();
         }
     }
