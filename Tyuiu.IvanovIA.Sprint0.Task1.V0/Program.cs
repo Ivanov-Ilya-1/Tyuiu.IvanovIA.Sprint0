@@ -11,10 +11,14 @@ namespace Tyuiu.IvanovIA.Sprint0.Task1.V0
         {
 
             Console.WriteLine("Hello, World!");
-            string name = "Илья";
+            string name = "Паша";
             int age = 18;
             Console.WriteLine("Здравствуйте меня зовут " + name + " мне " + age + " лет." );
             Console.ReadKey();
+            
         }
     }
 }
+
+
+
